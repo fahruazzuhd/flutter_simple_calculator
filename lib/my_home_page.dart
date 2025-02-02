@@ -42,10 +42,11 @@ class MyHomePage extends StatelessWidget {
                 foregroundColor: Theme.of(context).primaryColorDark,
                 text: '%',
               ),
-              CalculatorButton(
+              CalculatorButton.icon(
                 backgroundColor: Theme.of(context).primaryColorDark,
                 foregroundColor: Colors.white,
-                text: 'Del',
+                text: 'Backspace',
+                icon: Icons.backspace,
               ),
               CalculatorButton(
                 backgroundColor: Colors.white,
